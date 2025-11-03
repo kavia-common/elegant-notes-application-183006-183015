@@ -38,7 +38,7 @@ body {
 .topbar {
   display: none;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
   padding: 12px 16px;
   border-bottom: 1px solid var(--border);
   background: linear-gradient(180deg, rgba(59,130,246,0.08), rgba(249, 250, 251, 0.9));
@@ -89,7 +89,7 @@ body {
 .brand {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
   font-weight: 600;
   color: var(--text);
 }
@@ -282,6 +282,16 @@ body {
   white-space: nowrap;
 }
 
+/* Logo styling */
+.app-logo {
+  display: inline-block;
+  height: 40px;
+  width: auto;
+  border-radius: 8px;
+  object-fit: cover;
+  box-shadow: 0 0 0 2px rgba(59,130,246,0.15);
+}
+
 /* Responsive */
 @media (max-width: 900px) {
   .layout {
@@ -289,6 +299,9 @@ body {
   }
   .topbar {
     display: flex;
+  }
+  .app-logo {
+    height: 28px; /* mobile */
   }
   .sidebar {
     order: 2;

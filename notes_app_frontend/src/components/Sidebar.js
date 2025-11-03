@@ -1,5 +1,6 @@
 import React from "react";
 import NoteItem from "./NoteItem";
+import { APP_LOGO_PUBLIC } from "../assets/images";
 
 /**
  * PUBLIC_INTERFACE
@@ -21,7 +22,12 @@ export default function Sidebar({
     <aside className="sidebar" aria-label="Notes list">
       <div className="sidebar-top">
         <div className="brand">
-          <span className="brand-dot" aria-hidden="true" />
+          <img
+            src={APP_LOGO_PUBLIC}
+            alt="Notes App Logo"
+            className="app-logo"
+            height={32}
+          />
           <span className="brand-name">Elegant Notes</span>
         </div>
         <button className="btn primary" onClick={onCreate} aria-label="Create note">

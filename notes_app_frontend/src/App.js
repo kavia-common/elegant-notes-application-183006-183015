@@ -37,7 +37,7 @@ function App() {
   );
 
   return (
-    <div className="app-root" data-theme="light">
+    <div className="app-root" data-theme="mono-dark">
       <TopBar />
       <div className="layout">
         <Sidebar

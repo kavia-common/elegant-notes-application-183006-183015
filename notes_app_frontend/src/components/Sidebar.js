@@ -5,6 +5,7 @@ import { APP_LOGO_PUBLIC } from "../assets/images";
 /**
  * PUBLIC_INTERFACE
  * Sidebar renders the left panel with search, sort, create, and note list.
+ * Displays the app logo from a public path for consistent resolution.
  */
 export default function Sidebar({
   notes,

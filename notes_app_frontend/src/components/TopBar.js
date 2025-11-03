@@ -3,8 +3,8 @@ import { APP_LOGO_PUBLIC } from "../assets/images";
 
 /**
  * PUBLIC_INTERFACE
- * TopBar shows a simple header for small screens.
- * Displays the application logo with responsive sizing.
+ * TopBar shows a simple header for small screens with the app logo.
+ * Uses a public path so the image resolves consistently at /assets/... in dev and prod.
  */
 export default function TopBar() {
   return (
